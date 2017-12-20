@@ -206,6 +206,7 @@ void sunxi_gpio_close(void)
 #else
 		iounmap(SUNXI_PIO_BASE);
 #endif
+
 	if (SUNXI_PIO_BASE_LM != 0)
 #ifndef SUNXI_GPIO_USE_IOREMAP
 		munmap(SUNXI_PIO_BASE_LM, PageSize * 2);

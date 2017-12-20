@@ -104,8 +104,8 @@ enum sunxi_gpio_number {
 #define SUNXI_PULL_UP		(1)
 #define SUNXI_PULL_DOWN		(2)
 
-#define SUNXI_LOW			(0)
-#define SUNXI_HIGH			(1)
+#define SUNXI_LOW		(0)
+#define SUNXI_HIGH		(1)
 
 extern int sunxi_gpio_init(void);
 extern int sunxi_gpio_set_cfgpin(uint32_t pin, uint8_t val); // sunxi_gpio_set_cfgpin(pin, SUNXI_GPIO_OUTPUT)
