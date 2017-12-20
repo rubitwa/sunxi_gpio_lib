@@ -1,5 +1,5 @@
 
-If ure using this code in driver, comment #define USE_DEV_MEM 1 in sunxi_gpio_lib.h
+If ure using this code in driver, uncomment #define SUNXI_GPIO_USE_IOREMAP 1 in sunxi_gpio_lib.h
 
 Pin modes and etc defined in sunxi_gpio_lib.h
 For select pin look pdf scheme of ur board and:
